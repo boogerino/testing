@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <style>
+            .m {
+                border: 1px solid black;
+            }
+            .tae {
+                text-align: end;
+            }
+        </style>
+    </head>
+<body>
+    <!--holds the links, top right-->
+    <div class="container-fluid">
+        <div class="row justify-content-end ">
+            <div class="col-auto"><a href="index.html"><button type="button" class="btn btn-outline-secondary">google search</button></a></div>
+        </div>
+    </div>
+    
+    <!--holds the image and search elements-->
+    <div class="container ">
+        <div class="row justify-content-center ">
+            <img src="logo3.png" class="img-fluid" style="max-width: 400px; margin-top: 15%;">
+        </div>
+        <!--todo fix this-->
+            <form action="https://www.google.com/search"  id="src">
+                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                    <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text" placeholder="all these words">
+                </div>
+                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                    <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" id="CwYCWc" name="as_epq" type="text" placeholder="this exact word or phrase">
+                </div>
+                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;" >
+                    <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" id="mSoczb" name="as_oq" type="text" placeholder="any of these words">
+                </div>
+                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                    <input class="jfk-textinput  form-control form-control-lg md-1 gy-3" value="" id="t2dX1c" name="as_eq" type="text" placeholder="none of these words">
+                </div>
+                <div class="row " style="height: 50px; max-width: 200px; margin-left: auto; margin-right: auto;">
+                    <input type="submit"  value="Google Search" for="src" class="btn btn-primary align-items-center gy-3">
+                </div>
+                </form>
+        </div>
+</body>
+</html>
