@@ -12,6 +12,17 @@
             .tae {
                 text-align: end;
             }
+
+            #image1 {
+                max-width: 400px;
+                margin-top: 15%;
+            }
+
+            #text {
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         </style>
     </head>
     <body>
@@ -28,11 +39,11 @@
         <!--holds the image and search elements-->
         <div class="container ">
             <div class="row justify-content-center ">
-                <img src="logo.png" class="img-fluid" style="max-width: 400px; margin-top: 15%;">
+                <img src="logo.png" class="img-fluid" id="image1">
             </div>
             
                 <form action="https://www.google.com/search">
-                    <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                    <div class="row " id="text">
                         <input type="text" name="q" class="form-control form-control-lg md-1 gy-3">
                     </div>
                     <div class="row">

@@ -12,6 +12,22 @@
             .tae {
                 text-align: end;
             }
+            .text {
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #sub {
+                height: 50px;
+                max-width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            #img1 {
+                max-width: 400px;
+                margin-top: 15%;
+            }
         </style>
     </head>
 <body>
@@ -25,26 +41,26 @@
     <!--holds the image and search elements-->
     <div class="container ">
         <div class="row justify-content-center ">
-            <img src="logo3.png" class="img-fluid" style="max-width: 400px; margin-top: 15%;">
+            <img src="logo3.png" class="img-fluid" id="img1" >
         </div>
         <!--todo fix this-->
             <form action="https://www.google.com/search"  id="src">
-                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div class="row text" >
                     <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" autofocus="autofocus" id="xX4UFf" name="as_q" type="text" placeholder="all these words">
                 </div>
-                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div class="row text" >
                     <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" id="CwYCWc" name="as_epq" type="text" placeholder="this exact word or phrase">
                 </div>
-                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;" >
+                <div class="row text">
                     <input class="jfk-textinput form-control form-control-lg md-1 gy-3" value="" id="mSoczb" name="as_oq" type="text" placeholder="any of these words">
                 </div>
-                <div class="row " style="max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div class="row text">
                     <input class="jfk-textinput  form-control form-control-lg md-1 gy-3" value="" id="t2dX1c" name="as_eq" type="text" placeholder="none of these words">
                 </div>
-                <div class="row " style="height: 50px; max-width: 200px; margin-left: auto; margin-right: auto;">
+                <div class="row text" id="sub">
                     <input type="submit"  value="Google Search" for="src" class="btn btn-primary align-items-center gy-3">
                 </div>
-                </form>
+            </form>
         </div>
 </body>
 </html>
